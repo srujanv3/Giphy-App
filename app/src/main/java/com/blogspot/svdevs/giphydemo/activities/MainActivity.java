@@ -28,11 +28,11 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements DataAdapter.OnItemClickListener {
 
     RecyclerView rView;
-    List dataList = new ArrayList();
+//    List dataList = new ArrayList();
     ArrayList<DataModel> dataModelList = new ArrayList<>();
     DataAdapter dataAdapter;
 
-    public static final String API_KEY = "hfpCBPaU59ZiHsobavu03xNLVJm715O8";
+    public static final String API_KEY = "YOUR_API_KEY";
     public static final String BASE_URL = "https://api.giphy.com/v1/gifs/trending?api_key=";
 
     String url = BASE_URL + API_KEY;
