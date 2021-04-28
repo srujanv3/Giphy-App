@@ -1,24 +1,20 @@
-package com.blogspot.svdevs.giphydemo;
+package com.blogspot.svdevs.giphydemo.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.GridView;
-import android.widget.ListView;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.blogspot.svdevs.giphydemo.utils.MySingleton;
+import com.blogspot.svdevs.giphydemo.R;
+import com.blogspot.svdevs.giphydemo.adapters.DataAdapter;
 import com.blogspot.svdevs.giphydemo.model.DataModel;
 import com.blogspot.svdevs.giphydemo.ui.SpacesItemDecoration;
 
@@ -26,9 +22,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements DataAdapter.OnItemClickListener {

@@ -1,7 +1,6 @@
-package com.blogspot.svdevs.giphydemo;
+package com.blogspot.svdevs.giphydemo.adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,12 +9,11 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.blogspot.svdevs.giphydemo.R;
 import com.blogspot.svdevs.giphydemo.model.DataModel;
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataViewHolder> {
 

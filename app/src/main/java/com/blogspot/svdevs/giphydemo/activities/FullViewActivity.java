@@ -1,4 +1,4 @@
-package com.blogspot.svdevs.giphydemo;
+package com.blogspot.svdevs.giphydemo.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.blogspot.svdevs.giphydemo.R;
 import com.bumptech.glide.Glide;
 
 public class FullViewActivity extends AppCompatActivity {

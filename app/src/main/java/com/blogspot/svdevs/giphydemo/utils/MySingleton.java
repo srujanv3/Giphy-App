@@ -1,4 +1,4 @@
-package com.blogspot.svdevs.giphydemo;
+package com.blogspot.svdevs.giphydemo.utils;
 
 import android.content.Context;
 
